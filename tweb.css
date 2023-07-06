@@ -14,6 +14,7 @@
         justify-content: space-around;
         align-items: center;
     }
+    
 
     .logo{
         font-size: 2em;
@@ -88,6 +89,41 @@
     }
 
     .main-txt a:hover{
+        background: transparent;
+        border:1px solid indianred;
+    }
+
+    .social-media{
+        position: absolute;
+        right: 5%;
+        bottom: 5%;
+    }
+    .social-media::before{
+        content: "";
+        width: 80%;
+        height: 3px;
+        position: absolute;
+        top:42%;
+        left: -150px;
+        
+    }
+    
+    
+
+    .social-media i{
+        margin-left: 10px;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        
+        background-color: indianred;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.5s;
+    }
+
+    .social-media i:hover{
         background: transparent;
         border:1px solid indianred;
     }
